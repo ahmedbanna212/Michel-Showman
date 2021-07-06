@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4431012785310032587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4431012785310032585}
+  - component: {fileID: 4431012785310032584}
+  m_Layer: 0
+  m_Name: AudioManger 1 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4431012785310032585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431012785310032587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.59683007, y: 2.1316402, z: -2.8485088}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4431012785310032584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4431012785310032587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52bcce21cd752f5488e3cbb637610536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BTA
+    clip: {fileID: 8300000, guid: bdbec0d9df196024fabefe9cc1a68c71, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: coin
+    clip: {fileID: 8300000, guid: 248b739514c2fc344967f50251a5cde1, type: 3}
+    volume: 0.61
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: jump
+    clip: {fileID: 8300000, guid: 6473489e1561e194087ea2e68e602369, type: 3}
+    volume: 0.672
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: attack
+    clip: {fileID: 8300000, guid: 0be0c6ed41c550c4da2bf70927d55c31, type: 3}
+    volume: 0.614
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: barrel
+    clip: {fileID: 8300000, guid: 88d542a52c82f23438cdafb669adac16, type: 3}
+    volume: 0.739
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: door
+    clip: {fileID: 8300000, guid: 57698aaf59ab3c24c99475e459be28ac, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: chest
+    clip: {fileID: 8300000, guid: 0f8051fa0a7a60342a9356b9a41b4418, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: key
+    clip: {fileID: 8300000, guid: eb6bee8a4270fc14a97808a84a615cfb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: spike
+    clip: {fileID: 8300000, guid: 91fc7392a8c51994cacdeb40ae9d58d3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: checkpoint
+    clip: {fileID: 8300000, guid: a71687f72c53e264fbcf4ec0b37207aa, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: pigs
+    clip: {fileID: 8300000, guid: fe76e3f6dbd21314dbf370bc93673a3a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: explode
+    clip: {fileID: 8300000, guid: dcc9bb1e1cd997345bd396f03f4c40d2, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: potion
+    clip: {fileID: 8300000, guid: 3449714f6e826b040880e9b594a360b2, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
